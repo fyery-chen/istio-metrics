@@ -110,3 +110,6 @@ As the same as the above, you can use the following command to produce some 4xx 
 curl httpbin/status/400
 ```
 
+## istio-graph
+
+The istio graphs display the traffic direction of all services/workloads in one namespace. The `Green` line shows that the request is successful and the `Red` line indicates that the request is aborted.
